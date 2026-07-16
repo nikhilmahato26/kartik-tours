@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Phone, Mail, MapPin, Menu, X, MessageCircle } from "lucide-react";
+import logo from "../../assets/logo.jpg";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,13 +58,20 @@ export default function Navbar() {
       }`}>
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
-          <a href="#home" className="flex flex-col">
-            <span className="font-serif text-xl md:text-2xl font-bold tracking-wider text-white">
-              KARTIK
-            </span>
-            <span className="font-accent text-[9px] tracking-[0.25em] text-gold uppercase -mt-1 font-semibold">
-              Tours & Travels
-            </span>
+          <a href="#home" className="flex items-center space-x-3">
+            <img 
+              src={logo} 
+              alt="Kartik Tours & Travels Logo" 
+              className="h-10 w-10 md:h-12 md:w-12 rounded-full object-cover border border-gold/30 bg-white"
+            />
+            <div className="flex flex-col">
+              <span className="font-serif text-lg md:text-xl font-bold tracking-wider text-white leading-none">
+                KARTIK
+              </span>
+              <span className="font-accent text-[8px] tracking-[0.2em] text-gold uppercase font-semibold mt-0.5">
+                Tours & Travels
+              </span>
+            </div>
           </a>
 
           {/* Desktop Nav Links */}

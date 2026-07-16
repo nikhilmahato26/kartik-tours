@@ -1,5 +1,6 @@
 import React from "react";
 import { Phone, Mail, MapPin, Send, MessageCircle } from "lucide-react";
+import logo from "../../assets/logo.jpg";
 
 export default function Footer() {
   const handleNewsletterSubmit = (e) => {
@@ -17,13 +18,20 @@ export default function Footer() {
           
           {/* Col 1: Branding & Intro */}
           <div className="space-y-6">
-            <a href="#home" className="flex flex-col">
-              <span className="font-serif text-2xl font-bold tracking-wider text-white">
-                KARTIK
-              </span>
-              <span className="font-accent text-[9px] tracking-[0.25em] text-gold uppercase -mt-1 font-semibold">
-                Tours & Travels
-              </span>
+            <a href="#home" className="flex items-center space-x-3">
+              <img 
+                src={logo} 
+                alt="Kartik Tours & Travels Logo" 
+                className="h-12 w-12 rounded-full object-cover border border-gold/30 bg-white"
+              />
+              <div className="flex flex-col">
+                <span className="font-serif text-2xl font-bold tracking-wider text-white leading-none">
+                  KARTIK
+                </span>
+                <span className="font-accent text-[9px] tracking-[0.25em] text-gold uppercase font-semibold mt-1">
+                  Tours & Travels
+                </span>
+              </div>
             </a>
             <p className="text-slate-500 text-sm leading-relaxed">
               Premium chauffeur-driven car rental services based in Chhatrapati Sambhaji Nagar (Aurangabad), Maharashtra. Safe, sanitized, and reliable travel experiences.

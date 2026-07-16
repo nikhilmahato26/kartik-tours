@@ -37,7 +37,7 @@ export default function Hero() {
           {/* Heading */}
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight tracking-tight mb-6">
             Premium Car Rental <br />
-            <span className="text-gold-gradient">Service in Aurangabad</span>
+            <span className="text-gold-gradient">Service in Chhatrapati Sambhaji Nagar (Aurangabad)</span>
           </h1>
 
           {/* Subheading */}
@@ -77,7 +77,7 @@ export default function Hero() {
               <span>Call Now</span>
             </a>
             <a
-              href="https://wa.me/919049998498?text=Hello%20Kartik%20Tours%20and%20Travels,%20I'm%20interested%20in%20booking%20a%20luxury%20cab%20in%20Aurangabad."
+              href="https://wa.me/919049998498?text=Hello%20Kartik%20Tours%20and%20Travels,%20I'm%20interested%20in%20booking%20a%20luxury%20cab%20in%20Chhatrapati%20Sambhaji%20Nagar%20(Aurangabad)."
               target="_blank"
               rel="noreferrer"
               className="flex items-center space-x-2 bg-green-600/90 border border-green-500/30 text-white font-accent text-xs md:text-sm font-bold tracking-wider uppercase px-8 py-3.5 rounded-lg hover:bg-green-700 hover:shadow-lg transition-all duration-300"
