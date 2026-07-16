@@ -139,5 +139,98 @@ export const fleet = [
       "Climate Control",
       "Large Luggage Capacity"
     ]
+  },
+  {
+    id: "force-urbania-17",
+    name: "Force Urbania 17 Seater",
+    image: "/force_urbania.png",
+    category: "Luxury Coach",
+    passengers: 17,
+    comfort: "Premium VIP Cabin Comfort",
+    luggage: "10-12 Large Bags",
+    priceEstimate: "₹28 - ₹32 / km",
+    rating: "4.99 (45+ reviews)",
+    idealFor: [
+      "Premium Group Travel",
+      "Corporate VIP Transfers",
+      "Luxury Outstation Tours"
+    ],
+    features: [
+      "Individual AC Vents",
+      "Luxury Reclining Seats",
+      "USB Charging Ports",
+      "Futuristic Silent Cabin",
+      "Soft Air Suspensions",
+      "LED Ambient Lighting"
+    ]
+  },
+  {
+    id: "tempo-traveller-17",
+    name: "Force Tempo Traveller 17 Seater",
+    image: "/tempo_traveller.png",
+    category: "Luxury Coach",
+    passengers: 17,
+    comfort: "Spacious Group Comfort",
+    luggage: "10-12 Large Bags (Roof Carrier)",
+    priceEstimate: "₹24 - ₹26 / km",
+    rating: "4.93 (120+ reviews)",
+    idealFor: [
+      "Group Pilgrimages",
+      "Family Tour Packages",
+      "Outstation Trips"
+    ],
+    features: [
+      "Dual Air Conditioning",
+      "Comfortable Reclining Seats",
+      "Music System & LED Screen",
+      "Ample Legroom & Headroom",
+      "Experienced Driver"
+    ]
+  },
+  {
+    id: "tempo-traveller-25",
+    name: "Force Tempo Traveller 25 Seater",
+    image: "/tempo_traveller.png",
+    category: "Luxury Coach",
+    passengers: 25,
+    comfort: "Executive Seating Layout",
+    luggage: "15-18 Large Bags (Roof Carrier)",
+    priceEstimate: "₹28 - ₹32 / km",
+    rating: "4.95 (90+ reviews)",
+    idealFor: [
+      "Large Group Travel",
+      "Wedding Events & Guest Transport",
+      "Corporate Outings"
+    ],
+    features: [
+      "Powerful Dual AC",
+      "Luxury Reclining Seats",
+      "Premium Sound & LED TV",
+      "Overhead Storage Racks",
+      "Professional Coach Driver"
+    ]
+  },
+  {
+    id: "tempo-traveller-28",
+    name: "Force Tempo Traveller 28 Seater",
+    image: "/tempo_traveller.png",
+    category: "Luxury Coach",
+    passengers: 28,
+    comfort: "High-Capacity Comfort Coach",
+    luggage: "18-22 Large Bags (Roof Carrier)",
+    priceEstimate: "₹32 - ₹36 / km",
+    rating: "4.91 (75+ reviews)",
+    idealFor: [
+      "Wedding Celebrations",
+      "Large Family Gatherings",
+      "School & College Tours"
+    ],
+    features: [
+      "High-Capacity AC",
+      "Comfortable Cushion Seats",
+      "Audio-Video Entertainment",
+      "Spacious Wide Aisles",
+      "Safe & Secure Driving"
+    ]
   }
 ];

@@ -4,11 +4,12 @@ import { Users, Briefcase, Snowflake, Navigation, Phone, MessageCircle } from "l
 import { fleet } from "../../data/fleet";
 
 export default function Fleet() {
-  const [filter, setFilter] = useState("all"); // all, sedan, suv
+  const [filter, setFilter] = useState("all"); // all, sedan, suv, coach
 
   const filteredFleet = fleet.filter((car) => {
     if (filter === "sedan") return car.category === "Sedan";
     if (filter === "suv") return car.category === "MPV" || car.category === "Premium SUV";
+    if (filter === "coach") return car.category === "Luxury Coach";
     return true;
   });
 
@@ -36,7 +37,7 @@ export default function Fleet() {
         </div>
 
         {/* Filter Navigation (Matches uploaded mockup design) */}
-        <div className="flex justify-center space-x-3 mb-12">
+        <div className="flex flex-wrap justify-center gap-3 mb-12">
           <button
             onClick={() => setFilter("all")}
             className={`font-accent text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-full transition-all duration-300 ${
@@ -66,6 +67,16 @@ export default function Fleet() {
             }`}
           >
             Premium SUVs / MPVs
+          </button>
+          <button
+            onClick={() => setFilter("coach")}
+            className={`font-accent text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-full transition-all duration-300 ${
+              filter === "coach"
+                ? "bg-primary text-white shadow-lg"
+                : "bg-white text-slate-600 hover:bg-slate-100 border border-slate-200"
+            }`}
+          >
+            Luxury Coaches
           </button>
         </div>
 

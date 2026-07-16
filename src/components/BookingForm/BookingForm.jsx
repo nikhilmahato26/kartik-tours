@@ -242,7 +242,9 @@ export default function BookingForm() {
               >
                 <option className="bg-[#1e293b]" value="1-4">1 - 4 Passengers (Sedan)</option>
                 <option className="bg-[#1e293b]" value="5-7">5 - 7 Passengers (MPV / SUV)</option>
-                <option className="bg-[#1e293b]" value="7+">More than 7 (Multiple Vehicles)</option>
+                <option className="bg-[#1e293b]" value="8-17">8 - 17 Passengers (Luxury Coach / Urbania)</option>
+                <option className="bg-[#1e293b]" value="18-28">18 - 28 Passengers (Large Coach)</option>
+                <option className="bg-[#1e293b]" value="28+">More than 28 (Multiple Vehicles)</option>
               </select>
             </div>
           </div>
