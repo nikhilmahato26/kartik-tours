@@ -99,37 +99,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Address Card */}
-              <div className="bg-primary/50 border border-slate-800 rounded-xl p-5 flex items-start space-x-4">
-                <div className="text-gold bg-gold/10 p-3 rounded-lg flex-shrink-0 mt-1">
-                  <MapPin size={20} />
-                </div>
-                <div>
-                  <span className="text-slate-500 font-accent text-[10px] uppercase font-bold tracking-wider block mb-1">
-                    Registered Office
-                  </span>
-                  <p className="text-slate-300 text-sm font-sans leading-relaxed">
-                    Plot No. 152, N-3, CIDCO, <br />
-                    Chhatrapati Sambhaji Nagar (Aurangabad), <br />
-                    Maharashtra, India
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Google Map Frame */}
-            <div className="h-64 rounded-xl border border-slate-800 overflow-hidden shadow-lg relative group">
-              <iframe
-                title="Office Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.9961633513475!2d75.36294717596825!3d19.88241642618991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb986684784a0d%3A0xe104db64bc0ff46d!2sCIDCO%2C%20Aurangabad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1717000000000!5m2!1sen!2sin"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="grayscale opacity-75 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
-              />
             </div>
           </div>
 
